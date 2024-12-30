@@ -1,5 +1,5 @@
 ---
-import Welcome from '../components/Welcome.astro';
+import Header from '../components/Header.astro';
 import Layout from '../layouts/Layout.astro';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
@@ -7,5 +7,11 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-	<Welcome />
+	<main>
+		<section class="w-full lg:w-[740px] mx-auto py-10">
+			<img class="rounded-full w-12 h-12" src="https://m.media-amazon.com/images/I/81vOF2Rr2tS.jpg" alt="Bitcoin">
+			<h1 class="text-3xl font-bold">Hey, Soy Kaleb</h1>
+			<p>Estudiante Universitario, afinidad por el Desarrollo Web. </p>
+		</section>
+	</main>
 </Layout>
